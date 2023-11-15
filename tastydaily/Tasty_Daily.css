@@ -1,0 +1,665 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+:root{
+    --box-shadow:0px 3px 5px 0px rgba(0,0,0,0.34);
+    --hover-shadow:0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow:0px 0px 10px 0px rgba(0,0,0,0.100);
+    --light-back:#141c3a;
+    --black-button:#000000;
+    --white-button:#ffffff;
+    --main-color:#e7d4c4;
+    --main-color2:#054c01;
+    --main-color3:#43BA25;
+    --main-color4:#0a3602;
+    --font-color1:#f0f8ff;
+    
+}
+body{
+    background-color: var(--font-color1);
+}
+header .container{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: var(--main-color4);
+}
+header .container .list{
+    margin-left: -50px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+header .container .list .HSVBP{
+    display: flex;
+    border: none;
+    background: none;
+    color: var(--font-color1);
+    font-size: 15px;
+    margin: 20px;
+}
+header .container .list .HSVBP:hover{
+    color:#2BBC6D;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    background:none;
+    padding: 7px;
+    border:none;
+    color: var(--font-color1);
+    font-size: 16px;
+    height:60px ;
+    margin-right: -100px;
+}
+.phone:hover h3{
+    color: #43BA25;
+}
+header .container .list2{
+    float: right;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-left:-15px;
+}
+header .container .list2 button{
+    background:none;
+    border: none;
+    margin-right: 20px;
+}
+header .container .list2 button img{
+    margin-top: 10px;
+    width: 20px;
+}
+.header2 {
+    background-color:white;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    position: sticky; 
+    top: 0;   
+    z-index: 1000;
+}
+.next_logo h3{
+    font-size:13px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.next_logo{
+    display: flex;
+    justify-content: space-between;
+}
+.next_logo button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    margin-inline: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+    text-decoration: underline var(--font-color1);
+}
+.header2 .logo img{
+    margin-top: 20px;
+    width: 190px;
+    height: 40px;
+}
+.next_logo button img{
+    width: 26px;
+    height: 30px;
+}
+.media{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.media img{
+    margin-inline: 10px;
+    width: 27px;
+    height: 25px;
+}
+.header2 button:hover{
+    color: var(--main-color3);
+}
+.language{
+    border-radius: 3px;
+    background-color:#b6deac;
+    margin-right: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    height: 30px;
+    width:80px;
+}
+.toop{
+    width: 1419px;
+    height: 300px;
+    padding: 50px;
+    background-image: url(imges/tastydaily-2854935244.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.toop h2{
+    color: var(--main-color);
+    background-image: url(imges/tastydaily-1921788837.png);
+    background-position-y: 120%;
+    background-position-x: 25%;
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    font-size: 60px;
+}
+.toop a button{
+    margin-top: 50px;
+    border-radius: 180px;
+    width: 200px;
+    height: 65px;
+    border: none;
+    background: var(--main-color2);
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.toop a button img{
+    margin-left: 20px;
+}
+.toop a button h4{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--white-button);
+}
+.toop a button:hover{
+    background: var(--white-button);
+}
+.toop a button:hover h4{
+    text-decoration: none;
+    color:var(--black-button);
+}
+.toop div{
+    color: var(--main-color);
+    margin-left:250px;
+    margin-top: -40px;
+}
+.group{
+    display: flex;
+    width: 96%;
+    padding: 30px;
+    justify-content: space-around;
+}
+.menu1{
+    width: 450px;
+    height: 425px;
+    float: left;
+    border-radius: 25px;
+    margin-top: 30px;
+    background-position:right;
+    background-size: cover;
+}
+.menu1 h2{
+    color: var(--main-color2);
+    background-position-y:20%;
+    background-position-x: 1%;
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 75px;
+}
+a .button{
+    margin-left: 35px;
+    margin-top: 70px;
+    border-radius: 180px;
+    width: 130px;
+    height: 50px;
+    border: none;
+    background: var(--white-button);
+    display: flex;
+    align-items: center;
+}
+a .button h4{
+    font-size: 18px;
+    color: var(--main-color2);
+    margin-left: 20px;
+}
+a .button:hover{
+    background-color: var(--main-color2);
+}
+a .button:hover h4{
+    color: var(--main-color);
+}
+.group div:hover{
+    box-shadow:var(--hover-shadow);
+    cursor: pointer;
+}
+.September{
+    font-size: 45px;
+    font-weight:600;
+    margin-bottom: 40px;
+}
+.productes{
+    margin: 46px;
+    background-color:white;
+    border-radius: 20px;
+}
+.productes .line1{
+    order: 1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ; 
+    display: flex;
+    border:ridge 1px gray;
+}
+.productes .line2{
+    order: 2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    height: 565px;
+    border:ridge 1px gray;
+}
+.lin1 a{
+    color: #000000;
+    text-decoration: none;
+    background-color:white;
+}
+.lin1{
+    width: 25%;
+    color: #000000;
+    text-decoration: none;
+    background-color:white;
+    height: 565px;
+    border-right:ridge 1px gray;
+}
+.productes img{
+    width: 355px;
+    height: 250px;
+}
+.newsale{
+    font-size: 12px;
+    width: 150px;
+    height:20px ;
+    margin-left: -8px;
+}
+.New{
+    margin-left: 20px;
+    width: 50px;
+    height: 20px;
+    order:1;
+    background-color: #243f2f;
+    color: var(--main-color);
+    border-radius: 50px;
+    border: none;
+}
+.Sale{
+    order: 2;
+    color: var(--font-color1);
+    background-color: #43BA25;
+    width: 50px;
+    height: 20px;
+    border-radius: 50px;
+    border: none;
+}
+.avialable{
+    margin: 25px;
+    background-color: rgb(207, 207, 207);
+    width: 313px;
+    height:10px;
+    border-radius: 50px;
+}
+.sold{
+    margin-top: 25px;
+    margin-left: -337px;
+    background-color: rgb(15, 190, 29);
+    width: 200px;
+    height: 10px;
+    border-radius: 50px;
+}
+.pro_name{
+    font-weight: bold;
+    font-size:19px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.pro_name:hover{
+    color:#00aa63;
+}
+.pa_size{ 
+    background-color: #b6deac;
+    width: 313px;
+    height: 35px;
+    margin-inline: 25px;
+}
+.flag{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.productes .line2 .lin1 .flag button{
+    border: none;
+    background-color: white;
+}
+.delivery{
+    color:#b3e8eb;
+    display: flex;
+    margin-top: 80px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-inline: 50px;
+    background-image: url(img/snapedit_1699469789490.png);
+    height: 420px;
+    justify-content: space-between;
+}
+.delivery h1{
+    margin-right: -20px;
+    width: 800px;
+    margin-top: 60px;
+    font-size:60px;
+    background-image: url(img/tastydaily-1913622842.png);
+    background-position-y:20%;
+    background-position-x: 1%;
+    background-repeat: no-repeat;
+    background-size: 550px;
+}
+.timer{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 55px;
+    font-size: 20px;
+}
+.t{
+    width: 45px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+.t h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(38, 255, 110);
+}
+.t h4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.Vendors{
+    float: right;
+    border-radius: 25px;
+    margin-top: -90px;
+    width: 350px;
+    height: 640px;
+    padding: 25px;
+    padding-top: 40px;
+    font-size: 22px;
+    background-image: url(img/tastydaily-2807565943.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-right: 35px;
+}
+.Vendors h1{
+    margin-left: 35px;
+    background-image: url(img/tastydaily-1951934142.png);
+    background-size: 90%;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+}
+.product2{
+    
+    background-color: rgb(195, 14, 14);
+    border-radius: 20px;
+    padding: 1px;
+}
+.line{
+    margin: 46px;
+    border-radius: 20px;
+    display: flex;
+    border: 20px;
+    width: 980px;
+    border:ridge 1px gray;
+}
+.li1 a{
+    color: #000000;
+    text-decoration: none;
+    background-color:white;
+    height: 565px;
+    width: 240px;
+
+}
+.li1 {
+    color: #000000;
+    text-decoration: none;
+    background-color:white;
+    height: 565px;
+    width: 260px;
+    border-bottom:ridge 1px gray;
+    border-right:ridge 1px gray; 
+}
+.line img{
+    width: 250px;
+    height: 190px;
+}
+.newsales{
+    font-size: 12px;
+    width: 120px;
+    height:20px ;
+    margin-top: -180px;
+}
+.newsales .New{
+    margin-left: 10px;
+    width: 50px;
+    height: 20px;
+    order:1;
+    background-color: #243f2f;
+    color: var(--main-color);
+    border-radius: 50px;
+    border: none;
+}
+.newsales .Sale{
+    order: 2;
+    color: var(--font-color1);
+    background-color: #43BA25;
+    width: 50px;
+    height: 20px;
+    border-radius: 50px;
+    border: none;
+}
+.avialabl{
+    margin: 20px;
+    background-color: rgb(207, 207, 207);
+    width: 205px;
+    height:10px;
+    border-radius: 50px;
+}
+.sol{
+    margin-top: 20px;
+    margin-left: -224px;
+    background-color: rgb(15, 190, 29);
+    width: 80px;
+    height: 10px;
+    border-radius: 50px;
+}
+.li1 .pa_size{ 
+    background-color: #b6deac;
+    width: 190px;
+    height: 35px;
+    margin-inline: 25px;
+}
+.discount{
+    margin: 45px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.discount a .row:hover{
+    box-shadow:var(--hover-shadow);
+    cursor: pointer;
+}
+.ratio{
+    width: 325px;
+    height: 420px;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+.discount a{
+    text-decoration: none;
+    margin-top: 50px;
+}
+.discount a .ratio div{
+    order: 1;
+    font-size: 25px;
+    width: 110px;
+    height: 40PX;
+    padding-top: 7px;
+    margin-bottom: 20px;
+    color: #00aa63;
+    border-radius: 30px;
+    background-color: white;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.Sale_Products h1{
+    margin-bottom: 70px;
+}
+.Element{
+    margin-top: 50px;
+    display: flex;
+}
+.Element a{
+    display: flex;
+    text-decoration: none;
+}
+.Element a img{
+    width: 102px;
+    height: 90px;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+.Element_name a{
+    margin-top: -10px;
+    color: black;
+}
+.Element_name h3{
+    margin-top: 5px;
+    color: #00aa63;
+}
+.apps{
+    padding: 30px;
+    display: flex;
+    margin-top: 100px;
+    height: 450px;
+    margin-inline: 50px;
+    border-radius: 25px;
+    background-image: url(img/snapedit_1699653646639.png);
+}
+.apps div img{
+    margin-top: 55px;
+    width: 150px;
+    height: 55px;
+    margin-right: 25px;
+}
+.apps div h1{
+    font-size: 60px;
+    margin-top: 40px;
+    background-image: url(img/tastydaily-1926852181.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.us{
+    margin: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.features{
+    display: flex;
+    
+}
+.features h3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.features img{
+    width: 60px;
+    height: 50px;
+    margin-right: 20px;
+}
+.about_us{
+    padding:40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    background-color: #0a3602;
+}
+.policy h4{
+    margin-bottom: 25px;
+}
+.policy a{
+    color: #00aa63;
+    text-decoration: none;
+}
+.policy a:hover{
+    color: #a7e89d;
+}
+.who_are_we{
+    color: #00aa63;
+}
+.who_are_we img{
+    width: 170px;
+    margin-bottom: 40px;
+} 
+.who_are_we h4{
+    margin-bottom: 13px;
+}
+.who_are_we a img{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 65px;
+}
+.email{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    background-color: #082104;
+    height: 45px;
+    width: 300px;
+}
+.email input[type="email"]{
+    font-size: 15px;
+    background:none;
+    border: none;
+    color: white;
+    margin-left: 45px;
+}
+.email input[type="submit"]{
+    width: 105px;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 180px;
+    background-color:#00aa63;
+}
+.payment img{
+    width: 45px;
+    height: 35px;
+}
+.ab h1{
+    color: #2BBC6D;
+    margin-bottom: 35px;
+}
+.ab{
+    color: #00aa63
+}
